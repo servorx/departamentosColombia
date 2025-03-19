@@ -1,0 +1,1 @@
+crear una pagina con un marco negro en el que el centro de la pagina sea un maca de colombia, y se escogen 5 departamentos, se tiene que poner el cursor sobre la pagina y aparece un marco negro, si se da al link se dirige a una pagina de el departamento, donde aparece informacion de titulo, imagen, infomacion turistica, economica y gastronomia
