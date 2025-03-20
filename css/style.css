@@ -22,6 +22,13 @@ li p{
     display: inline;
 }
 
+mark{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    display: block;
+}
+
 .containter_imagen_departamento{
     box-sizing: border-box;
     display: block;
