@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+h3{
+    color: aqua;
+    text-align: right;
+}
+
+li{
+    font-weight: 1000;
+}
+
+li p{
+    font-weight: normal;
+    display: inline;
+}
+
+.containter_imagen_departamento{
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 350px;
+    box-sizing: content-box;
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 10px;
+}
+
+.container_gastronomia{
+    color: black;
+}
