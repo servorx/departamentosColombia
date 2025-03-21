@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
     <link href="css/style.css" rel="stylesheet" >
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+    </style>
 </head>
-<body>
-    <p align="center"><img src="image/colombia.png" usemap="#image-map" width="1000"></p>
-    <map name="image-map">
-        <area target="_blank" alt="mapa" title="mapa" href="/departamentos/Antioquia.html" coords="461,883,478,889,493,895,504,884,530,885,539,899,552,908,564,915,574,924,584,937,605,955,589,981,565,988,555,1002,544,1015,523,1017,482,1008,454,1007,429,1000,410,989,375,979,365,965,365,955,345,949,337,935,328,931,316,915,293,904,280,901,263,885,255,866,280,834,305,811,322,783,331,772,343,757,359,748,364,797,379,825,394,835,418,845,445,847,454,861" shape="poly">
-</map>
+<body class="core_body" >
+    <div>
+        <h1>mapa de Colombia</h1>
+        <p>departamentos escogidos donde se puede ver informacion:</p>
+        <li>Antioquia</li> 
+        <li>Atlantico</li>
+        <li>Boyacá</li>
+        <li>Cundinamarca</li>
+        <li>Santander</li>
+    </div>
+    <div class="map-container">
+    <img src="image/colombia.png" alt="departamento" usemap="#map">
+    <map name="map" >
+        <area target="_blank" alt="departamento" title="Santander" href="./departamentos/Santander.html" coords="160,166,167,160,172,154,171,142,174,136,172,127,179,132,181,138,189,140,195,138,199,147,201,153,205,157,209,162,207,172,201,176,195,184,187,189,181,184,177,192,168,192,163,186,155,180" shape="poly">
+        <area target="_blank" alt="departamento" title="Antioquia" href="./departamentos/Antioquia.html" coords="94,109,100,104,106,112,106,118,100,130,99,140,108,146,120,143,130,129,144,124,152,128,152,138,156,146,158,152,166,152,160,164,156,172,150,183,146,190,137,191,132,196,122,190,118,200,111,194,108,182,99,182,92,178,88,170,88,157,97,157,97,146,91,142,83,136,88,128,93,123" shape="poly">
+        <area target="_blank" alt="departamento" title="Atlantico" href="./departamentos/Atlantico.html" coords="133,53,135,60,143,66,147,59,150,54,151,44,144,42" shape="poly">
+        <area target="_blank" alt="departamento" title="Boyaca" href="./departamentos/Boyaca.html" coords="216,194,214,188,213,178,219,173,223,166,225,156,214,156,211,160,208,168,204,176,198,181,190,188,183,191,176,192,166,189,156,184,150,186,154,191,159,195,165,201,175,201,181,204,180,212,182,218,191,220,196,214,196,207,203,200,210,202" shape="poly">
+        <area target="_blank" alt="departamento" title="Cundinamarca" href="./departamentos/Cundinamarca.html" coords="156,249,163,242,169,238,175,233,177,225,182,231,193,232,195,225,190,220,183,218,181,210,179,203,174,196,167,200,163,193,157,189,149,192,148,204,147,210,147,216,145,222,144,230,148,234,155,238" shape="poly">
+    </map>
+    </div>
 </body>
 </html>
 
 
 
-<!--usar cordenadas y paint-->
+<!--usar cordenadas-->
