@@ -5,6 +5,14 @@
     background-repeat: no-repeat; 
     background-attachment: fixed; 
 }
+
+.core_departamentos{
+    background-color: beige;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
 .imagen{
     width: 1200px;
     transform: scale(0.5);
